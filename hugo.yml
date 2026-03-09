@@ -1,3 +1,18 @@
-baseURL: "https://example.org/"
-title: "My New Hugo Site"
+baseURL: "https://ukiyoarchive.com/"
+title: "Ukiyo Archive"
 theme: PaperMod
+
+params:
+  defaultTheme: auto
+
+menu:
+  main:
+  - name: Archive
+    url: archives/
+    weight: 5
+  - name: Search
+    url: search/
+    weight: 10
+  - name: Tags
+    url: tags/
+    weight: 15
