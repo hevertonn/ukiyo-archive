@@ -1,5 +1,6 @@
 baseURL: "https://ukiyoarchive.com/"
 title: "Ukiyo Archive"
+copyright: "© 2026 Heverton Borges"
 theme: PaperMod
 
 params:
@@ -25,3 +26,9 @@ menu:
   - name: Tags
     url: tags/
     weight: 15
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
