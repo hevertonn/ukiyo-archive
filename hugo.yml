@@ -15,7 +15,6 @@ params:
 
   homeInfoParams:
     Title: "Hi there, I'm Heverton."
-    Content: "This is my floating world, where I should share some of my stuff."
 
   socialIcons:
     - name: "github"
