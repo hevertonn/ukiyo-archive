@@ -21,6 +21,8 @@ params:
       url: "https://github.com/hevertonn"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/hevertonn/"
+    - name: "email"
+      url: "mailto:hb.hevertonborges@gmail.com"
 
 menu:
   main:
