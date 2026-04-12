@@ -8,7 +8,6 @@ params:
   ShowShareButtons: true
   ShowReadingTime: true
   ShowToc: true
-  TocOpen: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
