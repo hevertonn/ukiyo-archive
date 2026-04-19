@@ -1,4 +1,4 @@
-baseURL: "https://ukiyoarchive.com/"
+baseURL: "https://ukiyoarchive.io/"
 title: "Ukiyo Archive"
 copyright: "© 2026 Heverton Borges"
 theme: PaperMod
@@ -11,9 +11,7 @@ params:
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
-
-  homeInfoParams:
-    Title: "Hi there, I'm Heverton."
+  displayFullLangName: true
 
   socialIcons:
     - name: "github"
@@ -23,17 +21,46 @@ params:
     - name: "email"
       url: "mailto:hb.hevertonborges@gmail.com"
 
-menu:
-  main:
-  - name: Archive
-    url: archives/
-    weight: 5
-  - name: Search
-    url: search/
-    weight: 10
-  - name: Tags
-    url: tags/
-    weight: 15
+languages:
+  en:
+    label: "English 🇺🇸"
+    contentDir: "content/en"
+
+    params:
+      homeInfoParams:
+        Title: "Hi there, I'm Heverton."
+
+    menu:
+      main:
+      - name: Archive
+        url: archives/
+        weight: 5
+      - name: Search
+        url: search/
+        weight: 10
+      - name: Tags
+        url: tags/
+        weight: 15
+
+  pt:
+    label: "Português 🇧🇷"
+    contentDir: "content/pt"
+
+    params:
+      homeInfoParams:
+        Title: "Olá pessoal, Heverton aqui."
+
+    menu:
+      main:
+      - name: Arquivos
+        url: archives/
+        weight: 5
+      - name: Pesquisar
+        url: search/
+        weight: 10
+      - name: Tags
+        url: tags/
+        weight: 15
 
 outputs:
   home:
