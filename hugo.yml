@@ -25,7 +25,6 @@ params:
 languages:
   en:
     label: "English 🇺🇸"
-    contentDir: "content/en"
 
     params:
       homeInfoParams:
@@ -45,7 +44,6 @@ languages:
 
   pt:
     label: "Português 🇧🇷"
-    contentDir: "content/pt"
 
     params:
       homeInfoParams:
